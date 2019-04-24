@@ -32,9 +32,9 @@ The __top two teams__ from the league phase will play against each other in the 
 ## PROJECT ANALYSIS
 | Description | Analysis |
 | --- | --- |
-| IPL_data_head | ![Images.png](images/head.png) |
+| IPL_data_head | ![image.png](Images/IPLhead.png) |
 | Correalation | ![image.png](Images/Corelation.png) |
-| Most_Wins | ![image.png](Images/Most_wins.png) |
+| Most_Wins | ![image.png](Images/Mostwins.png) |
 | Most_Trophy_winners | ![image.png](Images/Trophy.png) |
 
 
