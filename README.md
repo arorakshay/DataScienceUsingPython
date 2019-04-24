@@ -17,12 +17,12 @@ This repository is about different Datasets used in real world.
 
 ___
 <a id=section1></a>
-### [IPL EDA](./IPL EDA)
+### [IPLEDA](./IPLEDA)
 ![image.png](Images/IPL.png)<br><br>
 - Indian Premiere League(IPL) is T20 cricket league where players from all over the world participate.
 - Research shows that the __Chennai Super Kings(CSK) and Mumbai Indians(MI)__ are the most successful teams.
 - An effort to show the Exploratory Data Analysis which helps in understanding the data in simple way.
-- [Link for the Jupyter notebook](./IPL EDA/IPL_Notebook.ipynb)
+- [Link for the Jupyter notebook](./IPLEDA/IPL_Notebook.ipynb)
 
 
 ## Projects in execution
