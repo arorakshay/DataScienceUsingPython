@@ -17,7 +17,7 @@ This repository is about different Datasets used in real world.
 
 ___
 <a id=section1></a>
-### [IPL EDA(2008-2018)](./IPL EDA)
+### [IPL EDA(2008-2018)] (./IPL EDA)
 ![image.png](Images/IPL.png)<br><br>
 - Indian Premiere League(IPL) is T20 cricket league where players from all over the world participate.
 - Research shows that the __Chennai Super Kings(CSK) and Mumbai Indians(MI)__ are the most successful teams.
