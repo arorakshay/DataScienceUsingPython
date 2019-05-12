@@ -14,6 +14,7 @@ This repository is about different Datasets used in real world.
 
 ## Table of Contents
 - [IPL EDA](#section1)<br>
+- [Insurance Risk Prediction](section2)<br>
 
 ___
 <a id=section1></a>
@@ -24,5 +25,12 @@ ___
 - An effort to show the Exploratory Data Analysis which helps in understanding the data in simple way.
 - [Link for the Jupyter notebook](./IPLEDA/IPL_Notebook.ipynb)
 
+___
+<a id=section2></a>
+### [Inurance Risk Prediction](./Insurance_Risk_Pred)
+![image.png](Images/Insurance.png)<br><br>
+- Insurance is a means of protection from financial loss. It can cover your loss caused either by accident or other     unpredicted factors.
+- An effort to predict the risk involved while giving insurance to the customers.
+- [Link for the Jupyter notebook](./Insurance_Risk_Pred/Insurance.ipynb)
 
 ## Projects in execution
