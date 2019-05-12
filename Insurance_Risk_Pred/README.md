@@ -1,5 +1,5 @@
 # Risk Prediction on Insurance Data
-![image.png](Images/Insurance.png)
+![image.png](Image/Insurance.png)
 
 ## INTRODUCTION
 __Insurance__ is a means of protection from financial loss.It can cover your loss caused either by accident or other unpredicted factors. Insurance firms gathers data from customers and on the basis of provided data they provide insurance. Insurance is one of the essentials which an individual should have for the more contented future of his family in his absence.
@@ -32,10 +32,14 @@ __Insurance__ is a means of protection from financial loss.It can cover your los
 
 
 ### Conclusion
-- We saw how __Exploratory Data Analysis__ helped us in getting meaningful insights from raw data. 
-- We used different Python libraries like matplotlib, seaborn etc. to plot various graphs. 
-- CSK and MI have dominated the IPL.
-![image.png](Images/IPL_CSK.png)
-![image.png](Images/IPL_MI.png)
+- This notebook helps us understanding the risk classification of customers while giving insurance using predictive Machine Learning Algorithms.
+- 
+- We have used below three __ML algos__ for prediction:
+    - Logistic Regression
+    - Decision Tree
+    - Random Forest
+- We used above algorithm with default parameters and have seen overfitting in case of Decision Tree and Random Forest.
+- We have used again Decision tree and Random Forest using hyper parameters and have seen both are giving around same accuracy.
+- As Response Variable is __imbalanced__, we may need to use some resampling techniques and use some other models to increae the accuracy/precision/recall.
 
 [Jupyter Notebook](./Insurance.ipynb)
