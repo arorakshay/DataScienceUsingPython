@@ -43,7 +43,7 @@ ___
 
 
 ### [Email Spam Detection](./Email_Spam_Detection)
-![Spam.png](Images/Spam.png)<br><br>
+![Spam.jpeg](Images/Spam.jpeg)<br><br>
 - Email Spam Detection is the process of segreating the emails based on their context into spam and not spam.
 - An effort to segment the Emails into spam and ham.
 - [Link for the Jupyter notebook](./Email_Spam_Detection/Email_Spam_Detection.ipynb)
