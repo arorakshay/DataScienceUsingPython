@@ -25,14 +25,6 @@
 | `CreditCard`  | Does the customer uses a credit card issued by UniversalBank? |
 
 
-## PROJECT ANALYSIS
-| Description | Analysis |
-| --- | --- |
-| Dependent_Var | ![image.png](Image/Response.png) |
-| Missing_Values | ![image.png](Image/Missing.png) |
-| Model_with_Def_Param | ![image.png](Image/Default_param.png) |
-| Model_with_Gridsearch | ![image.png](Image/Grid_sear.png) |
-
 #### Objectives:
  - **Cluster customers into segments using K-Means Clustering Algorithm.**
  - **Identify properties of each cluster semgent.**
@@ -62,4 +54,4 @@
  - **Family sizie is high<br/>**
  - Some customers in this cluster **also accepted personal loan offer.** 
 
-[Jupyter Notebook](./KMeans.ipynb)
+[Jupyter Notebook](./Kmeans.ipynb)
