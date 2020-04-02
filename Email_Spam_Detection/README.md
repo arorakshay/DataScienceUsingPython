@@ -12,7 +12,7 @@ __Email Spam Detection__ is a means of classiying emails into spam and not spam 
 
 ### Conclusion
 - This notebook helps us understanding the risk classification of customers while giving insurance using predictive Machine Learning Algorithms.
-- 
+
 - We have used below __ML algo__ for prediction:
     - Naive Bayes
     
