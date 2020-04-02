@@ -1,25 +1,28 @@
-# Risk Prediction on Insurance Data
-![image.png](Image/Insurance.png)
+# Customer Segmentation on Banks Data
+![image.png](Images/KM.png)
 
 ## INTRODUCTION
-__Insurance__ is a means of protection from financial loss.It can cover your loss caused either by accident or other unpredicted factors. Insurance firms gathers data from customers and on the basis of provided data they provide insurance. Insurance is one of the essentials which an individual should have for the more contented future of his family in his absence.
+**This case is about a bank which has a growing customer base.The management wants to explore ways to improve its revenue using a machine learning model. This has encouraged the retail marketing department to devise campaigns to do better targeted marketing.**
+
+**The department wants to build a model that will help them identify characteristics of groups of customers. This will increase their revenu while at the same time reduce the cost of the campaign.**
 
 ## DATA
 | Column Name | Description |
 | --- | --- |
-| `Id` | Unique Customer Id |
-| `ProductInfo_1-7` | A set of normalized variables relating to the product applied for |
-| `Ins_Age`| Normalized age of applicant|
-| `Ht` | Normalized height of applicant |
-| `Wt` | Normalized weight of applicant |
-| `BMI` | Normalized BMI of applicant |
-| `Employment_Info_1-6` | A set of normalized variables relating to the employment history of the<br> applicant |
-| `InsuredInfo_1-7` | A set of normalized variables providing information about the applicant |
-| `Insurance_History_1-9` | A set of normalized variables relating to the insurance history of the<br> applicant |
-| `Family_Hist_1-5` | A set of normalized variables relating to the family history of the applicant |
-| `Medical_History_1-41` | A set of normalized variables relating to the medical history of the applicant |
-| `Medical_Keyword_1-48` | A set of dummy variables relating to the presence of/absence of a medical<br> keyword being associated with the application |
-| `Response` | This is the target variable, an ordinal variable relating to the final decision <br>associated with an application |
+| `ID`  | Customer ID |
+| `Age`  |Customer's age in completed years |
+| `Experience`  | #years of professional experience |
+| `Income Annual`  | income of the customer (USD 1000) |
+| `ZIPCode`  | Home Address ZIP code |
+| `Family`  | Family size of the customer |
+| `CCAvg Avg`  | spending on credit cards per month (USD 1000) |
+| `Education`  | Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional |
+| `Mortgage`  | Value of house mortgage if any. (USD 1000) |
+| `Personal Loan`  | Did this customer accept the personal loan offered in the last campaign? |
+| `Securities Account`  | Does the customer have a securities account with the bank? |
+| `CD Account`  | Does the customer have a certificate of deposit (CD) account with the bank? |
+| `Online`  | Does the customer use internet banking facilities? |
+| `CreditCard`  | Does the customer uses a credit card issued by UniversalBank? |
 
 
 ## PROJECT ANALYSIS
@@ -30,16 +33,33 @@ __Insurance__ is a means of protection from financial loss.It can cover your los
 | Model_with_Def_Param | ![image.png](Image/Default_param.png) |
 | Model_with_Gridsearch | ![image.png](Image/Grid_sear.png) |
 
+#### Objectives:
+ - **Cluster customers into segments using K-Means Clustering Algorithm.**
+ - **Identify properties of each cluster semgent.**
+ - **Propose actions for each cluster that help will the Bank increase its revenue with a minimal budget.**
 
 ### Conclusion
-- This notebook helps us understanding the risk classification of customers while giving insurance using predictive Machine Learning Algorithms.
-- 
-- We have used below three __ML algos__ for prediction:
-    - Logistic Regression
-    - Decision Tree
-    - Random Forest
-- We used above algorithm with default parameters and have seen overfitting in case of Decision Tree and Random Forest.
-- We have used again Decision tree and Random Forest using hyper parameters and have seen both are giving around same accuracy.
-- As Response Variable is __imbalanced__, we may need to use some resampling techniques and use some other models to increae the accuracy/precision/recall.
+- We have used below three __ML algo__ for customer segmentation:
+    - K-Means Clustering
+- This notebook helps us classiying customers in diffrent groups to increase their revenue. Below 4 clusters have been created:
+#### Cluster 0
+ - **Age and Experinece is less** as compared to Cluster 1 and Cluster 2, but **this cluster has highest average income.**<br/>
+ - **CCAvg is also high.** 
+ - So, **we can offer them lucrative credit card schemes.**
+ <br/>
+ - Most of the customers did not accept a personal loan offer.
+ - So, it is a waste of time pursuing customers to take a loan.
+ 
+ #### Cluster 1 and Cluster 2
+  - **Customers who accepted a personal loan offer mostly belong to these clusters.**<br/>
+  - Their **income is better than Cluster 3.**
+  - So we can **run a campaign to pursue other customers in these clusters to take a loan** so that the **Bank can earn money through interest.**
 
-[Jupyter Notebook](./Insurance.ipynb)
+#### Cluster 3<br/>
+ - **Age is less<br/>**
+ - **Experience is less<br/>**
+ - **Income is less<br/>**
+ - **Family sizie is high<br/>**
+ - Some customers in this cluster **also accepted personal loan offer.** 
+
+[Jupyter Notebook](./KMeans.ipynb)
