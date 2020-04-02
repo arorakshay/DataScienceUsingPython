@@ -36,7 +36,7 @@ ___
 ### [Customer Segmentation](./Insurance_Risk_Pred)
 ![KM.png](Images/KM.png)<br><br>
 - Customer segmentation is the process of dividing customers into groups based on common characteristics so companies can      market to each group effectively and appropriately.
-- An effort to segment the custmors so that companies can target marketing strategies accordingly.
+- An effort to segment the customers so that companies can target marketing strategies accordingly.
 - [Link for the Jupyter notebook](./Customer_segmentation/KMeans.ipynb)
 
 ## Projects in execution
