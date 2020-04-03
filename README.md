@@ -15,6 +15,7 @@ This repository is about different Datasets used in real world.
 ## Table of Contents
 - [IPL EDA](#section1)<br>
 - [Insurance Risk Prediction](section2)<br>
+- [Customer Segmentation](section2)<br>
 - [Email Spam Detection](section3)<br>
 - [Gender Recognition by Voice](section4)<br>
 
