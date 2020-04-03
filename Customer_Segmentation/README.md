@@ -31,7 +31,7 @@
  - **Propose actions for each cluster that help will the Bank increase its revenue with a minimal budget.**
 
 ### Conclusion
-- We have used below three __ML algo__ for customer segmentation:
+- We have used below __ML algo__ for customer segmentation:
     - K-Means Clustering
 - This notebook helps us classiying customers in diffrent groups to increase their revenue. Below 4 clusters have been created:
 #### Cluster 0

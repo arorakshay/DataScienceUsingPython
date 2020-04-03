@@ -15,6 +15,8 @@ This repository is about different Datasets used in real world.
 ## Table of Contents
 - [IPL EDA](#section1)<br>
 - [Insurance Risk Prediction](section2)<br>
+- [Email Spam Detection](section3)<br>
+- [Gender Recognition by Voice](section4)<br>
 
 ___
 <a id=section1></a>
@@ -38,5 +40,12 @@ ___
 - Customer segmentation is the process of dividing customers into groups based on common characteristics so companies can      market to each group effectively and appropriately.
 - An effort to segment the customers so that companies can target marketing strategies accordingly.
 - [Link for the Jupyter notebook](./Customer_segmentation/KMeans.ipynb)
+
+
+### [Email Spam Detection](./Email_Spam_Detection)
+![Spam.jpeg](Images/Spam.jpeg)<br><br>
+- Email Spam Detection is the process of segreating the emails based on their context into spam and not spam.
+- An effort to segment the Emails into spam and ham.
+- [Link for the Jupyter notebook](./Email_Spam_Detection/Email_Spam_Detection.ipynb)
 
 ## Projects in execution
