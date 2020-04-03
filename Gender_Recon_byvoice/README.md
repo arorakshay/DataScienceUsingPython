@@ -34,7 +34,7 @@
  - The objective is to predict male/female with highest accuracy based on the accoustic properties.
 
 ### Conclusion
-- We have used below three __ML algo__ for customer segmentation:
+- We have used below  __ML algo__ for customer segmentation:
     - Support Vector Machine
 - This notebook helps us classiying male/female based on the accoustic properties.
 - __We have seen how by finely tuning C and gamma values for differnt kernel choices we can obtain maximum accuracy for our SVM model.__
