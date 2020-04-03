@@ -50,7 +50,7 @@ ___
 - [Link for the Jupyter notebook](./Email_Spam_Detection/Email_Spam_Detection.ipynb)
 
 ### [Gender_Recon_byvoice](./Gender_Recon_byvoice)
-![Gender.png](Gender/Gender.png)<br><br>
+![Gender.png](Images/Gender.png)<br><br>
 - Gender_Recon_byvoice is the process of segreating the people based into male/female based on accoustic properties.
 - An effort to classify voice into male/female based on accoustic properties of them.
 - [Link for the Jupyter notebook](./Gender_Recon_byvoice/Gender.ipynb)
